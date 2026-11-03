@@ -14,7 +14,7 @@
 
 ## Problem Statement
 
-Video streaming applications suffer from buffering, quality degradation, and increased latency when network congestion occurs. Traditional QoS mechanisms in Software Defined Networks (SDN) — such as static priority queuing and fixed routing rules — are **reactive**, responding only after congestion is detected. Existing SDN-based QoS solutions for video (e.g., ARVS, MaxStream) largely optimize routing *after* congestion is observed, relying mainly on bandwidth/throughput as the sole metric. There is limited work combining lightweight, real-time predictive models with SDN controllers to anticipate congestion **before** it occurs, specifically for video traffic prioritization.
+Video streaming applications suffer from buffering, quality degradation, and increased latency when network congestion occurs. Traditional QoS mechanisms in Software Defined Networks (SDN) — such as static priority queuing and fixed routing rules — are **reactive**, responding only after congestion is detected. Existing SDN-based QoS solutions for video (e.g., ARVS, MaxStream) largely optimize routing after congestion is observed, relying mainly on bandwidth/throughput as the sole metric. There is limited work combining lightweight, real-time predictive models with SDN controllers to anticipate congestion **before** it occurs, specifically for video traffic prioritization.
 
 ## Proposed Solution
 
